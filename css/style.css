@@ -80,7 +80,7 @@ p.s. I am available for Freelance hire (UI design, web development). mail: mille
 
 --------------------------------------------*/
 /*
-$main-color: #FFC107
+$main-color: #06e40e
 $main-color: #f44336;
 $main-color: #4CAF50;
 $main-color: #64B5F6;
@@ -223,7 +223,7 @@ a:focus {
 blockquote {
   margin-top: 30px;
   margin-bottom: 30px;
-  background: #FFC107;
+  background: #06e40e;
   color: #191923;
   padding: 30px;
   padding-left: 35px;
@@ -277,7 +277,7 @@ blockquote:after {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  border: solid 2px #FFC107;
+  border: solid 2px #06e40e;
   background: transparent;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -315,10 +315,10 @@ link
           transform: translateX(5px);
 }
 .art-link.art-color-link {
-  color: #FFC107;
+  color: #06e40e;
 }
 .art-link.art-color-link:hover {
-  color: #FFC107;
+  color: #06e40e;
   text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
   -webkit-transform: translateX(5px);
           transform: translateX(5px);
@@ -384,7 +384,7 @@ button
   -webkit-box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
           box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
   color: #20202a;
-  background: #FFC107;
+  background: #06e40e;
   letter-spacing: 1.5px;
   font-weight: 600;
   display: -webkit-inline-box;
@@ -559,7 +559,7 @@ app marcup
   stroke: #191923;
 }
 .art-preloader-load path:last-child {
-  stroke: #FFC107;
+  stroke: #06e40e;
 }
 
 /* ----- scroll frame ----- */
@@ -1026,7 +1026,8 @@ info bar
   right: 5px;
   height: 15px;
   width: 15px;
-  background: #FFC107;
+  /* status button */
+  background: #FFC107; 
   border-radius: 50%;
   z-index: 0;
   -webkit-transition: 0.4s ease-in-out;
@@ -1106,7 +1107,7 @@ info bar
   transition: 0.4s ease-in-out;
 }
 .art-info-bar .art-name:hover a {
-  color: #FFC107;
+  color: #06e40e;
 }
 .art-info-bar .art-lang-skills {
   display: -webkit-box;
@@ -1177,7 +1178,7 @@ info bar
   content: "\f00c";
   margin-right: 5px;
   font-size: 9px;
-  color: #FFC107;
+  color: #06e40e;
   margin-right: 10px;
 }
 .art-info-bar .art-links-frame {
@@ -1228,14 +1229,14 @@ info bar
   stroke: #191923;
 }
 .art-line-progress path:last-child {
-  stroke: #FFC107;
+  stroke: #06e40e;
 }
 
 .art-cirkle-progress path:first-child {
   stroke: #191923;
 }
 .art-cirkle-progress path:last-child {
-  stroke: #FFC107;
+  stroke: #06e40e;
 }
 
 /* ------------------------------
@@ -1454,7 +1455,7 @@ menu bar
   transition: 0.4s ease-in-out;
 }
 .art-menu-bar .art-language-change li.art-active-lang {
-  background-color: #FFC107;
+  background-color: #06e40e;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
 }
@@ -1599,7 +1600,7 @@ content
 }
 .art-code i {
   font-style: normal;
-  color: #FFC107;
+  color: #06e40e;
 }
 
 /* ----- counters ----- */
@@ -1618,14 +1619,14 @@ content
   min-width: 60px;
 }
 .art-counter-frame .art-counter-box .art-counter {
-  color: #FFC107;
+  color: #06e40e;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   font-size: 22px;
 }
 .art-counter-frame .art-counter-box .art-counter-plus {
   margin-left: 3px;
-  color: #FFC107;
+  color: #06e40e;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   font-size: 22px;
@@ -1690,7 +1691,7 @@ content
   padding: 2px;
   width: 200px;
   text-align: center;
-  background: #FFC107;
+  background: #06e40e;
 }
 .art-price .art-price-body {
   position: relative;
@@ -1718,7 +1719,7 @@ content
 }
 .art-price .art-price-body .art-price-cost .art-number {
   font-size: 32px;
-  color: #FFC107;
+  color: #06e40e;
   font-weight: 600;
   margin-bottom: 0;
 }
@@ -1750,7 +1751,7 @@ content
   content: "\f00c";
   margin-right: 5px;
   font-size: 9px;
-  color: #FFC107;
+  color: #06e40e;
 }
 .art-price .art-price-body .art-price-list li.art-empty-item {
   opacity: 0.3;
@@ -1761,7 +1762,7 @@ content
   content: "\f00d";
   margin-right: 5px;
   font-size: 9px;
-  color: #FFC107;
+  color: #06e40e;
 }
 .art-price .art-price-body .art-link {
   margin: 0;
@@ -1822,7 +1823,7 @@ content
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #FFC107;
+  color: #06e40e;
 }
 .art-testimonial .art-testimonial-footer .art-star-rate li {
   list-style-type: none;
@@ -1867,7 +1868,7 @@ content
 }
 .art-slider-navigation .swiper-pagination-bullet.swiper-pagination-bullet-active {
   width: 20px;
-  background-color: #FFC107;
+  background-color: #06e40e;
   opacity: 1;
 }
 .art-slider-navigation .art-slider-nav-frame {
@@ -1924,7 +1925,7 @@ content
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  border: solid 3px #FFC107;
+  border: solid 3px #06e40e;
   background: #1e1e28;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -2019,10 +2020,10 @@ content
   border-left: solid 50px #20202a;
 }
 .art-form-field textarea.art-active {
-  border-color: #FFC107;
+  border-color: #06e40e;
 }
 .art-form-field textarea:focus {
-  border-color: #FFC107;
+  border-color: #06e40e;
 }
 
 .art-contact-form .art-input:focus {
@@ -2031,7 +2032,7 @@ content
 
 .art-contact-form .art-input.art-active + label,
 .art-contact-form .art-input:focus + label {
-  background: #FFC107;
+  background: #06e40e;
   color: #20202a;
 }
 
@@ -2165,7 +2166,7 @@ content
   padding: 0 5px;
 }
 .art-pagination .art-pagination-center a.art-active-pag {
-  color: #FFC107;
+  color: #06e40e;
 }
 .art-pagination .art-link {
   margin: 0;
@@ -2482,7 +2483,7 @@ portfolio
 }
 
 .fancybox-progress {
-  background: #FFC107;
+  background: #06e40e;
   z-index: 999999999999999999;
 }
 
@@ -2498,7 +2499,7 @@ portfolio
 }
 
 .fancybox-thumbs__list a:before {
-  border-color: #FFC107;
+  border-color: #06e40e;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
 }

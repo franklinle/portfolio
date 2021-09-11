@@ -1,111 +1,111 @@
 
 .art-link.art-color-link {
-  color: #4CAF50
+  color: #06e40e
 }
 
 .art-link.art-color-link:hover {
-  color: #4CAF50;
+  color: #02fb0b;
 }
 .art-btn {
-  background: #4CAF50;
+  background: #02fb0b;
 }
 
 blockquote {
-  background: #4CAF50;
+  background: #02fb0b;
 }
 
 .art-custom-list li:before {
-  border: solid 2px #4CAF50;
+  border: solid 2px #02fb0b;
 }
 
 .art-info-bar .art-header .art-avatar .art-lamp-light .art-available-lamp {
-  background: #4CAF50;
+  background: #02fb0b;
 }
 
 .art-info-bar .art-name:hover a {
-  color: #4CAF50
+  color: #02fb0b
 }
 
 .art-info-bar .art-knowledge-list li:before {
-  color: #4CAF50;
+  color: #02fb0b;
 }
 
 .art-menu-bar .art-language-change li.art-active-lang {
-  background-color: #4CAF50;
+  background-color: #02fb0b;
 }
 
 .art-code i {
-  color: #4CAF50
+  color: #02fb0b
 }
 
 .art-counter-frame .art-counter-box .art-counter {
-  color: #4CAF50;
+  color: #02fb0b;
 }
 
 .art-counter-frame .art-counter-box .art-counter-plus {
-  color: #4CAF50;
+  color: #02fb0b;
 }
 
 .art-price.art-popular-price:before {
-  background: #4CAF50
+  background: #02fb0b
 }
 
 .art-price .art-price-body .art-price-cost .art-number {
-  color: #4CAF50;
+  color: #02fb0b;
 }
 
 .art-price .art-price-body .art-price-list li:before {
-  color: #4CAF50
+  color: #02fb0b
 }
 
 .art-price .art-price-body .art-price-list li.art-empty-item:before {
-  color: #4CAF50
+  color: #02fb0b
 }
 
 .art-testimonial .art-testimonial-footer .art-star-rate {
-  color: #4CAF50
+  color: #02fb0b
 }
 
 .art-slider-navigation .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background-color: #4CAF50;
+  background-color: #02fb0b;
 }
 
 .fancybox-progress {
-  background: #4CAF50;
+  background: #02fb0b;
 }
 
 .fancybox-thumbs__list a:before {
-  border-color: #4CAF50;
+  border-color: #02fb0b;
 }
 
 .art-timeline .art-timeline-item .art-timeline-mark {
-  border: solid 3px #4CAF50;
+  border: solid 3px #02fb0b;
 }
 
 .art-form-field textarea.art-active {
-  border-color: #4CAF50;
+  border-color: #02fb0b;
 }
 
 .art-form-field textarea:focus {
-  border-color: #4CAF50;
+  border-color: #02fb0b;
 }
 
 .art-contact-form .art-input.art-active+label, .art-contact-form .art-input:focus+label {
-  background: #4CAF50;
+  background: #02fb0b;
 }
 
 .art-pagination .art-pagination-center a.art-active-pag {
-  color: #4CAF50;
+  color: #02fb0b;
 }
 
 .art-preloader-load path:last-child {
-  stroke: #4CAF50;
+  stroke: #02fb0b;
 }
 
 .art-line-progress path:last-child {
-  stroke: #4CAF50;
+  stroke: #02fb0b;
 }
 
 .art-cirkle-progress path:last-child {
-  stroke: #4CAF50;
+  stroke: #02fb0b;
 }
