@@ -80,7 +80,7 @@ p.s. I am available for Freelance hire (UI design, web development). mail: mille
 
 --------------------------------------------*/
 /*
-$main-color: #06e40e
+$main-color: #4078c0
 $main-color: #f44336;
 $main-color: #4CAF50;
 $main-color: #64B5F6;
@@ -223,7 +223,7 @@ a:focus {
 blockquote {
   margin-top: 30px;
   margin-bottom: 30px;
-  background: #06e40e;
+  background: #4078c0;
   color: #191923;
   padding: 30px;
   padding-left: 35px;
@@ -277,7 +277,7 @@ blockquote:after {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  border: solid 2px #06e40e;
+  border: solid 2px #4078c0;
   background: transparent;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -315,10 +315,10 @@ link
           transform: translateX(5px);
 }
 .art-link.art-color-link {
-  color: #06e40e;
+  color: #4078c0;
 }
 .art-link.art-color-link:hover {
-  color: #06e40e;
+  color: #4078c0;
   text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
   -webkit-transform: translateX(5px);
           transform: translateX(5px);
@@ -383,8 +383,28 @@ button
   text-transform: uppercase;
   -webkit-box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
           box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
-  color: #20202a;
-  background: #06e40e;
+  color: #4078c0;
+  background: #ffffff;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border: none;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+.art-btn1 {
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
+          box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
+  color: #ffffff;
+  background: #4078c0;
   letter-spacing: 1.5px;
   font-weight: 600;
   display: -webkit-inline-box;
@@ -405,7 +425,18 @@ button
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
+.art-btn1 span {
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
 .art-btn.art-btn-md {
+  height: 45px;
+  font-size: 11px;
+  padding: 0 35px;
+}
+.art-btn1.art-btn-md {
   height: 45px;
   font-size: 11px;
   padding: 0 35px;
@@ -415,7 +446,17 @@ button
   font-size: 11px;
   padding: 0 30px;
 }
+.art-btn1.art-btn-sm {
+  height: 40px;
+  font-size: 11px;
+  padding: 0 30px;
+}
 .art-btn:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  color: #1e1e28;
+}
+.art-btn1:hover {
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
   color: #1e1e28;
@@ -559,7 +600,7 @@ app marcup
   stroke: #191923;
 }
 .art-preloader-load path:last-child {
-  stroke: #06e40e;
+  stroke: #4078c0;
 }
 
 /* ----- scroll frame ----- */
@@ -1107,7 +1148,7 @@ info bar
   transition: 0.4s ease-in-out;
 }
 .art-info-bar .art-name:hover a {
-  color: #06e40e;
+  color: #4078c0;
 }
 .art-info-bar .art-lang-skills {
   display: -webkit-box;
@@ -1178,7 +1219,7 @@ info bar
   content: "\f00c";
   margin-right: 5px;
   font-size: 9px;
-  color: #06e40e;
+  color: #4078c0;
   margin-right: 10px;
 }
 .art-info-bar .art-links-frame {
@@ -1229,14 +1270,14 @@ info bar
   stroke: #191923;
 }
 .art-line-progress path:last-child {
-  stroke: #06e40e;
+  stroke: #4078c0;
 }
 
 .art-cirkle-progress path:first-child {
   stroke: #191923;
 }
 .art-cirkle-progress path:last-child {
-  stroke: #06e40e;
+  stroke: #4078c0;
 }
 
 /* ------------------------------
@@ -1455,7 +1496,7 @@ menu bar
   transition: 0.4s ease-in-out;
 }
 .art-menu-bar .art-language-change li.art-active-lang {
-  background-color: #06e40e;
+  background-color: #4078c0;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
 }
@@ -1600,7 +1641,7 @@ content
 }
 .art-code i {
   font-style: normal;
-  color: #06e40e;
+  color: #4078c0;
 }
 
 /* ----- counters ----- */
@@ -1619,14 +1660,14 @@ content
   min-width: 60px;
 }
 .art-counter-frame .art-counter-box .art-counter {
-  color: #06e40e;
+  color: #4078c0;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   font-size: 22px;
 }
 .art-counter-frame .art-counter-box .art-counter-plus {
   margin-left: 3px;
-  color: #06e40e;
+  color: #4078c0;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   font-size: 22px;
@@ -1691,7 +1732,7 @@ content
   padding: 2px;
   width: 200px;
   text-align: center;
-  background: #06e40e;
+  background: #4078c0;
 }
 .art-price .art-price-body {
   position: relative;
@@ -1719,7 +1760,7 @@ content
 }
 .art-price .art-price-body .art-price-cost .art-number {
   font-size: 32px;
-  color: #06e40e;
+  color: #4078c0;
   font-weight: 600;
   margin-bottom: 0;
 }
@@ -1751,7 +1792,7 @@ content
   content: "\f00c";
   margin-right: 5px;
   font-size: 9px;
-  color: #06e40e;
+  color: #4078c0;
 }
 .art-price .art-price-body .art-price-list li.art-empty-item {
   opacity: 0.3;
@@ -1762,7 +1803,7 @@ content
   content: "\f00d";
   margin-right: 5px;
   font-size: 9px;
-  color: #06e40e;
+  color: #4078c0;
 }
 .art-price .art-price-body .art-link {
   margin: 0;
@@ -1823,7 +1864,7 @@ content
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #06e40e;
+  color: #4078c0;
 }
 .art-testimonial .art-testimonial-footer .art-star-rate li {
   list-style-type: none;
@@ -1868,7 +1909,7 @@ content
 }
 .art-slider-navigation .swiper-pagination-bullet.swiper-pagination-bullet-active {
   width: 20px;
-  background-color: #06e40e;
+  background-color: #4078c0;
   opacity: 1;
 }
 .art-slider-navigation .art-slider-nav-frame {
@@ -1925,7 +1966,7 @@ content
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  border: solid 3px #06e40e;
+  border: solid 3px #4078c0;
   background: #1e1e28;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -2020,10 +2061,10 @@ content
   border-left: solid 50px #20202a;
 }
 .art-form-field textarea.art-active {
-  border-color: #06e40e;
+  border-color: #4078c0;
 }
 .art-form-field textarea:focus {
-  border-color: #06e40e;
+  border-color: #4078c0;
 }
 
 .art-contact-form .art-input:focus {
@@ -2032,7 +2073,7 @@ content
 
 .art-contact-form .art-input.art-active + label,
 .art-contact-form .art-input:focus + label {
-  background: #06e40e;
+  background: #4078c0;
   color: #20202a;
 }
 
@@ -2166,7 +2207,7 @@ content
   padding: 0 5px;
 }
 .art-pagination .art-pagination-center a.art-active-pag {
-  color: #06e40e;
+  color: #4078c0;
 }
 .art-pagination .art-link {
   margin: 0;
@@ -2483,7 +2524,7 @@ portfolio
 }
 
 .fancybox-progress {
-  background: #06e40e;
+  background: #4078c0;
   z-index: 999999999999999999;
 }
 
@@ -2499,7 +2540,7 @@ portfolio
 }
 
 .fancybox-thumbs__list a:before {
-  border-color: #06e40e;
+  border-color: #4078c0;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
 }
