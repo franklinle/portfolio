@@ -1072,11 +1072,19 @@ content (after 920px)
           flex-direction: column;
 
           & a {
-            max-width: 200px;
+            max-width: 1000px;
             margin: 0 auto;
-
             &:first-child {
               margin-bottom: 15px;
+  
+
+          & b {
+            max-width: 1000px;
+            margin: 0 auto;
+            &:first-child {
+            margin-bottom: 15px;
+            }
+          }
             }
           }
         }

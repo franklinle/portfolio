@@ -74,6 +74,10 @@ h6 {
   & a {
     margin-right: 15px;
   }
+  & b {
+    margin-right: 15px;
+  }
+
 }
 /* ----- suptitle ----- */
 .art-el-suptitle {
@@ -320,6 +324,42 @@ button
   }
 
   &.art-btn-sm {
+    height: 40px;
+    font-size: 11px;
+    padding: 0 30px;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    color: $content-color;
+  }
+}
+
+.art-btn1 {
+  text-transform: uppercase;
+  box-shadow: $shadow-2;
+  color: $info-bar-1-color;
+  background: $main-color;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  border: none;
+  transition: $tr-md;
+
+  & span {
+    align-self: center;
+    transition: $tr-sm;
+  }
+
+  &.art-btn1-md {
+    height: 45px;
+    font-size: 11px;
+    padding: 0 35px;
+  }
+
+  &.art-btn1-sm {
     height: 40px;
     font-size: 11px;
     padding: 0 30px;

@@ -160,15 +160,14 @@ h6 {
 /* ----- buttons frame ----- */
 .art-buttons-frame a {
   margin-left: 1px;
+
 }
 
-.art-buttons-frame b {
-  margin-left: 315px;
+.new-art-buttons-frame {
+  margin-left: 316px;
 }
 
-.art-buttons-frame c {
-  margin-left: 20px;
-}
+
 
 /* ----- suptitle ----- */
 .art-el-suptitle {
@@ -428,6 +427,25 @@ button
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
 }
+
+.art-btn2 {
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
+  box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  border: none;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
 .art-btn span {
   -ms-flex-item-align: center;
   align-self: center;
@@ -440,12 +458,18 @@ button
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
+.art-btn2 span {
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
 .art-btn.art-btn-md {
   height: 45px;
   font-size: 11px;
   padding: 0 35px;
 }
-.art-btn1.art-btn-md {
+.art-btn1.art-btn1-md {
   height: 45px;
   font-size: 11px;
   padding: 0 35px;
@@ -455,7 +479,7 @@ button
   font-size: 11px;
   padding: 0 30px;
 }
-.art-btn1.art-btn-sm {
+.art-btn1.art-btn1-sm {
   height: 40px;
   font-size: 11px;
   padding: 0 30px;
@@ -2858,10 +2882,7 @@ content (after 920px)
     margin: 0 auto;
   }
 
-  .art-banner .art-banner-overlay .art-banner-title .art-buttons-frame c {
-    max-width: 200px;
-    margin: 0 auto;
-  }
+
   .art-banner
     .art-banner-overlay
     .art-banner-title
