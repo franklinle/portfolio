@@ -106,9 +106,9 @@ $(function () {
       width: "100%",
       height: "100%",
     },
-    step: (state, bar) => {
-      bar.setText(Math.round(bar.value() * 100) + " %");
-    },
+    // step: (state, bar) => {
+    //   bar.setText(Math.round(bar.value() * 100) + " %");
+    // },
   });
 
   bar.animate(0.9);
@@ -123,9 +123,9 @@ $(function () {
       width: "100%",
       height: "100%",
     },
-    step: (state, bar) => {
-      bar.setText(Math.round(bar.value() * 100) + " %");
-    },
+    // step: (state, bar) => {
+    //   bar.setText(Math.round(bar.value() * 100) + " %");
+    // },
   });
 
   bar.animate(0.8);
@@ -140,9 +140,9 @@ $(function () {
       width: "100%",
       height: "100%",
     },
-    step: (state, bar) => {
-      bar.setText(Math.round(bar.value() * 100) + " %");
-    },
+    // step: (state, bar) => {
+    //   bar.setText(Math.round(bar.value() * 100) + " %");
+    // },
   });
 
   bar.animate(0.75);
@@ -157,9 +157,9 @@ $(function () {
       width: "100%",
       height: "100%",
     },
-    step: (state, bar) => {
-      bar.setText(Math.round(bar.value() * 100) + " %");
-    },
+    // step: (state, bar) => {
+    //   bar.setText(Math.round(bar.value() * 100) + " %");
+    // },
   });
 
   bar.animate(0.65);
