@@ -101,6 +101,7 @@ img.animated-gif {
   margin-right: auto;
   height: 95%;
   width: 95%;
+  border-radius: 10px;
 }
 
 .parent {
