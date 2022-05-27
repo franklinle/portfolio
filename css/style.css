@@ -164,6 +164,7 @@ h6 {
 }
 
 .art-lg-text {
+  top: 100px;
   font-size: 13px;
   text-align: left;
 }
@@ -205,7 +206,7 @@ h6 {
 .new-art-buttons-frame2 {
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -1853,8 +1854,9 @@ content
   background: linear-gradient(159deg, #2e3a2d 0%, #2b2b35 100%);
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
-  padding: 30px;
-  margin-bottom: 30px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 00px;
 }
 .art-card.art-fluid-card {
   height: calc(100% - 30px);
