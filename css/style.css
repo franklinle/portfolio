@@ -164,6 +164,11 @@ h6 {
 }
 
 .art-lg-text {
+  font-size: 13px;
+  text-align: left;
+}
+
+.art-lg-text1 {
   font-size: 16px;
   text-align: center;
 }
